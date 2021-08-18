@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="header-container">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li>
+                                <a href="./sobre/index.html">Sobre</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <h1>Derick Carvalho</h1>
+        <h2>Estudante de Programação (Visando o Full-Stack)</h2>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/derick-carvalho-b594361b7/">LinkedIn</a>
+            <a href="https://www.instagram.com/derickcarvalho13/?hl=pt-br">Instagram</a>
+        </div>
+    </header>
+            <h1 class="titulos-projetos">Projetos</h1>
+    <main class="container">
+        <div class="card-container">
+            <div class="card" onclick="clicar1()">
+                <div class="card-wrapper">
+                    <h2>Cara a Cara</h2>
+                    <p>Clique para ver!</p>
+                </div>
+            </div>
+            <div class="card-text">
+                O projeto Cara a Cara surgiu a partir de uma "necessidade" de alguns amigos
+                de encontrarem um jogo online no estilo do famoso Cara a Cara, só que com
+                personagens de Animes. Este foi um dos projetos onde eu consegui treinar mais
+                meu conhecimento em JavaScript, principalmente para modificar elementos CSS
+                através do mesmo.
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card" onclick="clicar2()">
+                <div class="card-wrapper">
+                    <h2>Lista de Tarefas</h2>
+                    <p>Clique para ver!</p>
+                </div>
+            </div>
+            <div class="card-text">
+                A ideia surgiu a partir da necessidade de uma lista de tarefas rápida,
+                para tarefas feitas em curto prazo, onde fosse possível adicionar e remover
+                as tarefas de forma otimizada, sem que as mesmas ficassem salvas, como nos
+                diversos aplicativos de celular. Utilizei desta ideia para treinar formas de
+                adicionar elementos no HTML através do JavaScript
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card" onclick="clicar3()">
+                <div class="card-wrapper">
+                    <h2>Comparar GPUs</h2>
+                    <p>Clique para ver!</p>
+                </div>
+            </div>
+            <div class="card-text">
+                A ideia foi dada por um amigo durante uma call no Discord. O Comparador de GPUs
+                me ajudou a desenvolver a lógica de programação, pois utilizei bastante comparação
+                de valores de variáveis.
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2021 DerickCarvalho</p>
+    </footer>
+
+<script src="funcionalidade.js"></script>
+</body>
+</html>
